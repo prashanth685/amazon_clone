@@ -1,33 +1,158 @@
 *{
     margin: 0;
-    font-family: Arial;
-    border: border-box;
+    padding: 0;
 }
 .navbar{
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.nav_logo{
+.nav-logo{
     height: 50px;
     width: 100px;
 }
 .logo{
     background-image: url(logo.png);
+    background-size: cover;
     height: 50px;
     width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* box2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+
+}
+.add-second{
+    margin-left: 3px;
+    font-size: 1rem;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* box3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.nav-search:hover{
+    border: 5px solid orangered;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.05rem;
+    font-weight: 700;
+}
+
+/* box6 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options p{
+    display: inline;
+    margin: 15px;
+}
+.panel-options{
+    width: 70%;
+}
+.panel-deals{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* hero-section */
+.hero-section{
+    background-image: url(herotwo.jpg);
+    height: 600px;
     background-size: cover;
 }
-.logo:hover{
-    border: 2px solid orange;
+
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+
 }
-.span{
-    height: 50px;
-    width: 192px;
-    margin-left: 140px;
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
 }
-.nav_search{
-    width: 300px;
-    height: 60px;
-    padding: 10px 4px 10px 3px;
+.box-img{
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.box-content p{
+    color: #222f3d;
 }
