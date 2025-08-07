@@ -81,12 +81,26 @@
 
 }
 /* box4 */
+
+.nav-signin{
+    height: 45px;
+    width: 100px;
+
+}
 span{
-    font-size: 0.7rem;
+    font-size: 14px;
+    height: 70px;
+    width: 102px;
 }
 .nav-second{
-    font-size: 0.05rem;
+    height: 15px;
+    width: 100px;
     font-weight: 700;
+}
+.nav-return{
+    height: 45px;
+    width: 100px;
+
 }
 
 /* box6 */
@@ -156,3 +170,73 @@ span{
 .box-content p{
     color: #222f3d;
 }
+
+footer{
+    margin-top: 50px;
+}
+.foot-panelone{
+    background-color: #37575a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.foot-paneltwo{
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 50px;
+}
+ul a{
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #dddd;
+}
+.footpanel-three{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoone{
+    background-image: url(logo.1png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.footpanel-four{
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 80px;
+    text-align: center;
+    font-size: 0.7rem;
+
+
+
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 15px;
+}
+/* .hero-section{
+    transition: all 2s ease-in-out ;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
